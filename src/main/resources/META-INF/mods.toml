@@ -1,0 +1,15 @@
+modLoader="lowcodefml"
+loaderVersion="[66,)"
+license="MPL-2.0"
+
+[[mods]]
+modId="mc311974_fix"
+version="${version}"
+displayName="MC-311974 Fix"
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.mc311974_fix]]
+modId="minecraft"
+versionRange="[${minecraft_version}]"
+mandatory=true
+side="CLIENT"

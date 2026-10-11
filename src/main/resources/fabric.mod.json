@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mc311974_fix",
+  "version": "${version}",
+  "name": "MC-311974 Fix",
+  "description": "mod that fixes players moving choppy on 26.3, good for pvp",
+  "authors": ["breadbb / genizy / mrTickles_"],
+  "environment": "client",
+  "license": "MPL-2.0",
+  "mixins": ["mc-311974_fix.mixins.json"],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=25"
+  }
+}
+
+

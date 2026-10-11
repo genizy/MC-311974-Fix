@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MPL-2.0"
+
+[[mods]]
+modId="mc311974_fix"
+version="${version}"
+displayName="MC-311974 Fix"
+
+[[mixins]]
+config="mc-311974_fix.mixins.json"
+
+[[dependencies.mc311974_fix]]
+modId="minecraft"
+versionRange="[${minecraft_version}]"
+type="required"
+side="CLIENT"

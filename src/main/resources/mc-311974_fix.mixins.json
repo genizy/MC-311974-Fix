@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "breadbb.mc311974_fix.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["SteppedInterpolationHandlerMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
